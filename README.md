@@ -1,7 +1,4 @@
-Claro, aqui está o texto completo em Markdown em inglês para ser adicionado ao README do seu projeto no GitHub:
-
-```markdown
-# Spotify EDA Project
+# Spotify Exploratory Data Analysis Project
 
 ## Project Structure
 1. [Introduction](#introduction)
