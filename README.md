@@ -83,32 +83,63 @@ Correlation heatmaps and scatter plots were used to identify patterns and correl
 ### Least Popular Songs
 We analyzed the 10 least popular songs on Spotify. Popularity is measured on a scale from 0 to 100, where 0 is the least popular. Songs with the lowest popularity have a score of 0, indicating that they were rarely or never played on the platform.
 
+<p align="center">
+  <img src="https://github.com/LuisNagano/Spotify-EDA-Analysis/blob/main/Result%20Plots/1.%20Least%20Popular%20Songs.png" alt="Least Popular Songs">
+</p>
+
 ### Most Popular Songs
-![Most Popular Songs](path/to/most_popular_songs.png)
 The analysis of the 10 most popular songs on Spotify reveals that all have a popularity score above 90. These songs represent the biggest hits on the platform. A horizontal bar chart was generated to visualize these data, where we can clearly see that artists like Justin Bieber (featuring Daniel Caesar and Giveon), Olivia Rodrigo, and The Weeknd dominate the top charts.
 
+<p align="center">
+  <img src="https://github.com/LuisNagano/Spotify-EDA-Analysis/blob/main/Result%20Plots/2.%20Most%20Popular%20Songs.png" alt="Most Popular Songs">
+</p>
+
 ### Distribution of Songs by Year
-![Distribution of Songs by Year](path/to/distribution_by_year.png)
 A histogram shows the distribution of the number of songs released per year. There is a significant increase in the number of releases over the years, especially after 2010. This increase may be associated with the growth of digital music platforms.
 
+<p align="center">
+  <img src="https://github.com/LuisNagano/Spotify-EDA-Analysis/blob/main/Result%20Plots/3.%20Distribution%20of%20Songs%20by%20Year.png" alt="Distribution of Songs by Year">
+</p>
+
 ### Duration of Songs Over the Years
-![Duration of Songs Over the Years](path/to/duration_over_years.png)
 Two charts were generated to analyze the duration of songs over the years: a bar chart and a line chart. There is a trend of decreasing average song duration over time. This behavior may reflect changes in listener preferences and production strategies.
 
+<p align="center">
+  <img src="https://github.com/LuisNagano/Spotify-EDA-Analysis/blob/main/Result%20Plots/4a.%20Duration%20of%20Songs%20Over%20the%20Years.png" alt="Duration of Songs Over the Years 1">
+</p>
+
+<p align="center">
+  <img src="https://github.com/LuisNagano/Spotify-EDA-Analysis/blob/main/Result%20Plots/4b.%20Duration%20of%20Songs%20Over%20the%20Years.png" alt="Duration of Songs Over the Years 2">
+</p>
+
 ### Duration of Songs in Different Genres
-![Duration of Songs in Different Genres](path/to/duration_genres.png)
 A bar chart shows the average duration of songs in different musical genres. Genres such as World, Soundtrack, and Soul tend to have longer songs, while songs in genres such as A Capella and Children's Music tend to be shorter.
 
+<p align="center">
+  <img src="https://github.com/LuisNagano/Spotify-EDA-Analysis/blob/main/Result%20Plots/5.%20Duration%20of%20Songs%20in%20Different%20Genres.png" alt="Duration of Songs in Different Genres">
+</p>
+
 ### Most Popular Genres
-![Most Popular Genres](path/to/popular_genres.png)
 A bar chart of the top 5 musical genres by popularity shows that Dance, Pop, Rap, Hip-Hop, and Reggaeton are the most popular genres on Spotify.
 
+<p align="center">
+  <img src="https://github.com/LuisNagano/Spotify-EDA-Analysis/blob/main/Result%20Plots/6.%20Most%20Popular%20Genres.png" alt="Most Popular Genres">
+</p>
+
 ### Correlation Analysis
-![Correlation Heatmap](path/to/correlation_heatmap.png)
 A correlation heatmap highlights the significant relationships between various features of the tracks. For example, there is a strong positive correlation between energy and loudness, and a moderate positive correlation between danceability and valence.
 
-![Filtered Correlation Heatmap](path/to/filtered_correlation_heatmap.png)
+<p align="center">
+  <img src="https://github.com/LuisNagano/Spotify-EDA-Analysis/blob/main/Result%20Plots/7a.%20Correlation%20Analysis.png" alt="Correlation Heatmap">
+</p>
+
 The filtered heatmap shows only the most significant correlations (|r| > 0.5), providing a clearer view of key relationships.
+
+<p align="center">
+  <img src="https://github.com/LuisNagano/Spotify-EDA-Analysis/blob/main/Result%20Plots/7b.%20Correlation%20Analysis.png" alt="Filtered Correlation Heatmap">
+</p>
+
+
 
 ## Insights
 
